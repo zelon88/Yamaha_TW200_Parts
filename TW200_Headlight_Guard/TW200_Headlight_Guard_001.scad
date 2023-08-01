@@ -13,7 +13,7 @@
 // ----------------------------------------------------------------------------------------------------
 // PART INFORMATION
 
-// NAME:  TW200 Headlight Guard (Horizontal Bars)
+// NAME:  TW200 Headlight Guard (Square Holes)
 // REVISION:  A1
 // START DATE:  8/1/2023
 // CURRENT VERSION DATE:  8/1/2023
@@ -22,7 +22,7 @@
 // MATERIALS REQUIRED:  PLA or ABS Filament
 // DESCRIPTION:  
 //    A headlight guard with horizontal bars.
-// FILE NAME:  TW200_Headlight_Guard_002.scad
+// FILE NAME:  TW200_Headlight_Guard_001.scad
 // ----------------------------------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------------------------------
@@ -38,8 +38,8 @@
 // ----------------------------------------------------------------------------------------------------
 // GEOMETRY
 
-// TW200 Headlight Guard (Horizontal Bars).
-module TW200_Headlight_Guard_002 () { 
+// TW200 Headlight Guard (Square Holes).
+module TW200_Headlight_Guard_001 () { 
 
   // Load the main body.
   include<TW200_Headlight_Guard_000.scad>;
@@ -47,8 +47,9 @@ module TW200_Headlight_Guard_002 () {
   // Render the headlight guard base.
   TW200_Headlight_Guard_000();
   
-  // Center bar.
+  // Center bars.
   translate([0, 0, 0]) cube([6.5, 0.09, 0.2], center=true);
+  translate([0, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
 
   // Upper bars.
   translate([0, 0.33, 0]) cube([6.5, 0.09, 0.2], center=true);
@@ -62,10 +63,30 @@ module TW200_Headlight_Guard_002 () {
   translate([0, -0.66, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -1.32, 0]) cube([6.5, 0.09, 0.2], center=true);
-  translate([0, -1.65, 0]) cube([6.5, 0.09, 0.2], center=true); }
+  translate([0, -1.65, 0]) cube([6.5, 0.09, 0.2], center=true);
+
+  // Right bars.
+  translate([0.35, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([0.70, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([1.05, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([1.40, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([1.75, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([2.10, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([2.45, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([2.80, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+
+  // Left bars.
+  translate([-0.35, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-0.70, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-1.05, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-1.40, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-1.75, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-2.10, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-2.45, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
+  translate([-2.80, 0, 0]) cube([0.09, 4.125, 0.2], center=true); }
 
 
 // Render the object. 
 // Comment or uncomment as needed.
-TW200_Headlight_Guard_002();
+TW200_Headlight_Guard_001();
 // ----------------------------------------------------------------------------------------------------
