@@ -14,7 +14,7 @@
 // PART INFORMATION
 
 // NAME:  TW200 Headlight Guard (Square Holes)
-// REVISION:  A1
+// REVISION:  A2
 // START DATE:  8/1/2023
 // CURRENT VERSION DATE:  8/1/2023
 // AUTHOR:  Justin Grimes (@zelon88)
@@ -84,7 +84,6 @@ module TW200_Headlight_Guard_001 () {
   translate([-2.10, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
   translate([-2.45, 0, 0]) cube([0.09, 4.125, 0.2], center=true);
   translate([-2.80, 0, 0]) cube([0.09, 4.125, 0.2], center=true); }
-
 
 // Render the object. 
 // Comment or uncomment as needed.

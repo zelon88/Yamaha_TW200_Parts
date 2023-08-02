@@ -11,7 +11,7 @@ DESCRIPTION:  A headlight guard for the 1987 - Present Yamaha TW200 Motorcycle.
 REQUIREMENTS:  
      Must fit onto a Yamaha TW200.
      Must be 3D printable in one piece.
-     Must come in a variety of styles
+     Must come in a variety of styles.
      Must provide impact resistance to the headlight.
 ----------------------------------------------------------------------------------------------------
 

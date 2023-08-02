@@ -14,7 +14,7 @@
 // PART INFORMATION
 
 // NAME:  TW200 Headlight Guard (Horizontal Bars)
-// REVISION:  A1
+// REVISION:  A2
 // START DATE:  8/1/2023
 // CURRENT VERSION DATE:  8/1/2023
 // AUTHOR:  Justin Grimes (@zelon88)
@@ -63,7 +63,6 @@ module TW200_Headlight_Guard_002 () {
   translate([0, -0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -1.32, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -1.65, 0]) cube([6.5, 0.09, 0.2], center=true); }
-
 
 // Render the object. 
 // Comment or uncomment as needed.

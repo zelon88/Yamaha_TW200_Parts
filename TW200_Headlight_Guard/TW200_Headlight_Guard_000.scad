@@ -14,7 +14,7 @@
 // PART INFORMATION
 
 // NAME:  TW200 Headlight Guard Main Body
-// REVISION:  A1
+// REVISION:  A2
 // START DATE:  8/1/2023
 // CURRENT VERSION DATE:  8/1/2023
 // AUTHOR:  Justin Grimes (@zelon88)
@@ -59,9 +59,9 @@ module TW200_Headlight_Guard_000 () {
     translate([3.3, 0, 1]) cube([0.1, 2, 2], center=true); 
 
     // Remove material from slot.
-    translate([3.3, 0, 1]) cube([0.1, 0.25, 1], center=true);
-    translate([3.3, 0, 1.5]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
-    translate([3.3, 0, 0.5]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
+    translate([3.3, 0, 1.000]) cube([0.1, 0.25, 1.25], center=true);
+    translate([3.3, 0, 1.625]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
+    translate([3.3, 0, 0.375]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
 
     // Remove material from sides of mounting bracket.
     rotate([25, 0, 0]) translate([3.3, 1.5, 1]) cube([0.1, 1, 2.5], center=true);
@@ -69,17 +69,16 @@ module TW200_Headlight_Guard_000 () {
 
     // Remove credit text.
     translate([3.295, 0.2, 1.50]) rotate([90, 90, 90]) linear_extrude(0.25) text("Designed by @Zelon88", size=0.075);
-    translate([3.295, -1.18, -0.02]) rotate([90, 0, 90]) linear_extrude(0.25) text("https://github.com/zelon88/Yamaha_TW200_Parts", size=0.075);
-}
+    translate([3.295, -1.18, -0.02]) rotate([90, 0, 90]) linear_extrude(0.25) text("https://github.com/zelon88/Yamaha_TW200_Parts", size=0.075); }
 
   difference() {   
     // Left side mounting bracket.
     translate([-3.3, 0, 1]) cube([0.1, 2, 2], center=true);
 
     // Remove material from slot.
-    translate([-3.3, 0, 1]) cube([0.1, 0.25, 1], center=true);
-    translate([-3.3, 0, 1.5]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
-    translate([-3.3, 0, 0.5]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
+    translate([-3.3, 0, 1.000]) cube([0.1, 0.25, 1.25], center=true);
+    translate([-3.3, 0, 1.625]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
+    translate([-3.3, 0, 0.375]) rotate([0, 90, 0]) cylinder(r=0.125, h=0.1, $fn=12, center=true);
 
     // Remove material from sides of mounting bracket.
     rotate([25, 0, 0]) translate([-3.3, 1.5, 1]) cube([0.1, 1, 2.5], center=true);
