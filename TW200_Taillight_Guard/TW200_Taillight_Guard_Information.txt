@@ -1,0 +1,35 @@
+----------------------------------------------------------------------------------------------------
+PROJECT INFORMATION
+
+NAME:  Yamaha TW200 Taillight Guard
+REVISION:  A1
+START DATE:  8/1/2023
+CURRENT VERSION DATE:  8/3/2023
+LICENSE:  GPLv3
+AUTHOR:  Justin Grimes (@zelon88)
+DESCRIPTION:  A taillight guard for the 1987 - Present Yamaha TW200 Motorcycle.
+REQUIREMENTS:  
+     Must fit onto a Yamaha TW200.
+     Must be 3D printable in one piece.
+     Must come in a variety of styles.
+     Must provide impact resistance to the taillight.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+PART INFORMATION
+
+Part  Name                                   Quantity  Filenames
+000   Headlight Guard Main Body                 0         TW200_Taillight_Guard_000.scad / .stl
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+PRINTER CONFIGURATION
+
+Detailed instructions for printing each part are included in the .scad file for each part.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+MANUFACTURING INSTRUCTIONS
+
+Detailed instructions for manufacturing each part are included in the .scad file for each part.
+----------------------------------------------------------------------------------------------------
