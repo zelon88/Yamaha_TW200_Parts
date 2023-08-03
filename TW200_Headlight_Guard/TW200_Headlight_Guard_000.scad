@@ -44,11 +44,11 @@
 module TW200_Headlight_Guard_000 () { 
 
   difference() { 
-      // Main body of headlight guard.
-      cube([6.7, 4.125, 0.2], center=true);
+    // Main body of headlight guard.
+    cube([6.7, 4.125, 0.2], center=true);
 
-      // Center hole.
-      cube([6.37, 3.75, 0.25], center=true); 
+    // Center hole.
+    cube([6.37, 3.75, 0.25], center=true); 
 
     // Remove credit text.
     translate([3.295, -1.18, -0.02]) rotate([90, 0, 90]) linear_extrude(0.25) text("https://github.com/zelon88/Yamaha_TW200_Parts", size=0.075);

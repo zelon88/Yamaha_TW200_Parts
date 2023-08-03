@@ -19,6 +19,14 @@ After a prototype for a revision has been produced any changes will result in a 
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------
+8/2/2023 - A1, A2 - Fix code spacing in TW200_Headlight_Guard_000.scad.
+
+-Project Revision:  A1
+-Parts Revision:  A2
+-Fix code spacing in TW200_Headlight_Guard_000.scad.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
 8/1/2023 - A2 - Increase mounting slot length.
 
 -Project Revision:  A1
