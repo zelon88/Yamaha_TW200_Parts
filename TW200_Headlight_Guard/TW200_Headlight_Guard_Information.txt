@@ -24,6 +24,7 @@ Part  Name                                   Quantity  Filenames
 002   Headlight Guard (Horizontal Bars)         1         TW200_Headlight_Guard_002.scad/.stl/.jpg
 003   Headlight Guard (Rectangle Holes)         1         TW200_Headlight_Guard_003.scad/.stl/.jpg
 004   Headlight Guard (Wide Horizontal Bars)    1         TW200_Headlight_Guard_004.scad/.stl/.jpg
+005   Headlight Guard (Large Square Holes)      1         TW200_Headlight_Guard_005.scad/.stl/.jpg
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------

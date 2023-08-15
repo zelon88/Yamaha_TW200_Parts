@@ -19,6 +19,15 @@ After a prototype for a revision has been produced any changes will result in a 
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------
+8/15/2023 - A1, A3 - Add more guard patterns.
+
+-Project Revision:  A1
+-Parts Revision:  A3
+-Add additional pattern styles for guard.
+  -005.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
 8/15/2023 - A1, A3 - Make mounting tabs taller, wider. Add more guard patterns.
 
 -Project Revision:  A1
