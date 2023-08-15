@@ -4,7 +4,7 @@ PROJECT INFORMATION
 NAME:  Yamaha TW200 Headlight Guard
 REVISION:  A1
 START DATE:  8/1/2023
-CURRENT VERSION DATE:  8/1/2023
+CURRENT VERSION DATE:  8/15/2023
 LICENSE:  GPLv3
 AUTHOR:  Justin Grimes (@zelon88)
 DESCRIPTION:  A headlight guard for the 1987 - Present Yamaha TW200 Motorcycle.
@@ -16,6 +16,17 @@ This file gets updated whenever a commit is made to the repository.
 Sometimes these commits result in a change in the official "REVISION" of the project, but not always.
 During the initial design phase, the revision will remain unchanged.
 After a prototype for a revision has been produced any changes will result in a "REVISION" change. 
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+8/15/2023 - A1, A3 - Make mounting tabs taller, wider. Add more guard patterns.
+
+-Project Revision:  A1
+-Parts Revision:  A3
+-Make mounting bracket 0.25" taller.
+-Move mounting slot 0.25" up.
+-Widen the entire frame by .05".
+-Add 2 additional pattern styles for guard.
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------

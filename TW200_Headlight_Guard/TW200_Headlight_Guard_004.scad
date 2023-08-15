@@ -13,16 +13,16 @@
 // ----------------------------------------------------------------------------------------------------
 // PART INFORMATION
 
-// NAME:  TW200 Headlight Guard (Horizontal Bars)
+// NAME:  TW200 Headlight Guard (Wide Horizontal Bars)
 // REVISION:  A3
-// START DATE:  8/1/2023
+// START DATE:  8/15/2023
 // CURRENT VERSION DATE:  8/15/2023
 // AUTHOR:  Justin Grimes (@zelon88)
 // CONSTRUCTION METHOD:  3D Printed
 // MATERIALS REQUIRED:  PLA or ABS Filament
 // DESCRIPTION:  
-//    A headlight guard with horizontal bars.
-// FILE NAME:  TW200_Headlight_Guard_002.scad
+//    A headlight guard with wide horizontal bars.
+// FILE NAME:  TW200_Headlight_Guard_004.scad
 // ----------------------------------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------------------------------
@@ -39,7 +39,7 @@
 // GEOMETRY
 
 // TW200 Headlight Guard (Horizontal Bars).
-module TW200_Headlight_Guard_002 () { 
+module TW200_Headlight_Guard_004 () { 
 
   // Load the main body.
   include<TW200_Headlight_Guard_000.scad>;
@@ -51,20 +51,21 @@ module TW200_Headlight_Guard_002 () {
   translate([0, 0, 0]) cube([6.5, 0.09, 0.2], center=true);
 
   // Upper bars.
-  translate([0, 0.33, 0]) cube([6.5, 0.09, 0.2], center=true);
+  //translate([0, 0.33, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, 0.66, 0]) cube([6.5, 0.09, 0.2], center=true);
-  translate([0, 0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
+  //translate([0, 0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, 1.32, 0]) cube([6.5, 0.09, 0.2], center=true);
-  translate([0, 1.65, 0]) cube([6.5, 0.09, 0.2], center=true);
+  //translate([0, 1.65, 0]) cube([6.5, 0.09, 0.2], center=true);
 
   // Lower bars.
-  translate([0, -0.33, 0]) cube([6.5, 0.09, 0.2], center=true);
+  //translate([0, -0.33, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -0.66, 0]) cube([6.5, 0.09, 0.2], center=true);
-  translate([0, -0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
+  //translate([0, -0.99, 0]) cube([6.5, 0.09, 0.2], center=true);
   translate([0, -1.32, 0]) cube([6.5, 0.09, 0.2], center=true);
-  translate([0, -1.65, 0]) cube([6.5, 0.09, 0.2], center=true); }
+  //translate([0, -1.65, 0]) cube([6.5, 0.09, 0.2], center=true); 
+}
 
 // Render the object. 
 // Comment or uncomment as needed.
-TW200_Headlight_Guard_002();
+TW200_Headlight_Guard_004();
 // ----------------------------------------------------------------------------------------------------

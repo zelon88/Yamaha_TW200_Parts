@@ -4,7 +4,7 @@ PROJECT INFORMATION
 NAME:  Yamaha TW200 Headlight Guard
 REVISION:  A1
 START DATE:  8/1/2023
-CURRENT VERSION DATE:  8/1/2023
+CURRENT VERSION DATE:  8/15/2023
 LICENSE:  GPLv3
 AUTHOR:  Justin Grimes (@zelon88)
 DESCRIPTION:  A headlight guard for the 1987 - Present Yamaha TW200 Motorcycle.
@@ -19,9 +19,11 @@ REQUIREMENTS:
 PART INFORMATION
 
 Part  Name                                   Quantity  Filenames
-000   Headlight Guard Main Body                 0         TW200_Headlight_Guard_000.scad / .stl
-001   Headlight Guard (Square Holes)            1         TW200_Headlight_Guard_001.scad / .stl
-002   Headlight Guard (Horizontal Bars)         1         TW200_Headlight_Guard_002.scad / .stl
+000   Headlight Guard Main Body                 0         TW200_Headlight_Guard_000.scad/.stl/.jpg
+001   Headlight Guard (Square Holes)            1         TW200_Headlight_Guard_001.scad/.stl/.jpg
+002   Headlight Guard (Horizontal Bars)         1         TW200_Headlight_Guard_002.scad/.stl/.jpg
+003   Headlight Guard (Rectangle Holes)         1         TW200_Headlight_Guard_003.scad/.stl/.jpg
+004   Headlight Guard (Wide Horizontal Bars)    1         TW200_Headlight_Guard_004.scad/.stl/.jpg
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------
